@@ -6,10 +6,10 @@ function multiply($x,$y)
 	return $z;
 }
 
-echo "<table><tr><th></th>";
+echo "<table><tr><td></td>";
 # for loop for column headers
 for($i=1;$i<=100;$i++)
-	echo "<th>" . $i . "</th>";
+	echo "<td>" . $i . "</td>";
 echo "</tr>";
 
 # for loop for rows of table
