@@ -2,6 +2,7 @@
 	<head>
 		<title>Game Store</title>
 		<script type="text/javascript" src="formChecker.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<form onsubmit="formCheck()" action="customerBackend.php" method="post">
@@ -20,10 +21,10 @@
 			</fieldset>
 			<fieldset>
 				<legend>Games</legend>
-				<table>
-					<tr><th>Quantity</th><th>Title</th><th>Price</th><th>Platform</th></tr>
+				<table class="shoptable">
+					<tr><th class="shoptable">Quantity</th><th class="shoptable">Title</th><th class="shoptable">Price</th><th class="shoptable">Platform</th></tr>
 					<tr>
-						<td><select>
+						<td class="shoptable"><select>
 							<option value="0">0</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -36,12 +37,12 @@
 							<option value="9">9</option>
 							<option value="10">10</option>
 						</select></td>
-						<td>Final Fantasy XIV: Stormblood</td>
-						<td>$30</td>
-						<td>PC</td>
+						<td class="shoptable">Final Fantasy XIV: Stormblood</td>
+						<td class="shoptable">$30</td>
+						<td class="shoptable">PC</td>
 					</tr>
 					<tr>
-						<td><select>
+						<td class="shoptable"><select>
 							<option value="0">0</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -54,12 +55,12 @@
 							<option value="9">9</option>
 							<option value="10">10</option>
 						</select></td>
-						<td>Overwatch</td>
-						<td>$40</td>
-						<td>XB1</td>
+						<td class="shoptable">Overwatch</td>
+						<td class="shoptable">$40</td>
+						<td class="shoptable">XB1</td>
 					</tr>
 					<tr>
-						<td><select>
+						<td class="shoptable"><select>
 							<option value="0">0</option>
 							<option value="1">1</option>
 							<option value="2">2</option>
@@ -72,9 +73,9 @@
 							<option value="9">9</option>
 							<option value="10">10</option>
 						</select></td>
-						<td>Bloodborne</td>
-						<td>$10</td>
-						<td>PS4</td>
+						<td class="shoptable">Bloodborne</td>
+						<td class="shoptable">$10</td>
+						<td class="shoptable">PS4</td>
 					</tr>
 				</table>
 			</fieldset>
