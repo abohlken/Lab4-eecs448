@@ -1,19 +1,20 @@
 <html>
 	<head>
 		<title>Game Store</title>
+		<script type="text/javascript" src="formChecker.js"></script>
 	</head>
 	<body>
-		<form>
+		<form onsubmit="formCheck()" action="customerBackend.php" method="post">
 			<fieldset>
 				<legend>Login Info</legend>
 				<table>
 					<tr>
 						<td>Username: </td>
-						<td><input type="text" name="username"></input></td>
+						<td><input type="text" name="username" id="username"></input></td>
 					</tr>
 					<tr>
 						<td>Password: </td>
-						<td><input type="password" name="password"></input></td>
+						<td><input type="password" name="password" id="password"></input></td>
 					</tr>
 				</table>
 			</fieldset>
@@ -86,5 +87,6 @@
 		<button type="submit" value="Submit">Submit</button>
 		<button type="reset" value="Reset">Reset</button>
 		</form>
+		
 	</body>
 </html>
