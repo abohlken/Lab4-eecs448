@@ -32,3 +32,13 @@ table {
 th {
 	background-color: #9eb3d3;
 }
+
+p {
+	text-align: center;
+	font-size: 16px;
+}
+
+p.header {
+	font-size: 30px;
+	font-weight: bold;
+}
