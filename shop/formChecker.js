@@ -8,7 +8,7 @@ function formCheck()
 	var foundAtSign = false;
 	var foundDot = false;
 	
-	if(uName == "" || password == "")
+	if(uName == "" || pass == "")
 		document.write("Username and password fields cannot be blank!");
 	else if(ffxiv == 0&&ow == 0&&bloodborne == 0)
 		document.write("Please choose at least one game to buy!");

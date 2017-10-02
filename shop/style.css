@@ -42,3 +42,7 @@ p.header {
 	font-size: 30px;
 	font-weight: bold;
 }
+
+.shipping, .total {
+	background-color: #9eb3d3;
+}
